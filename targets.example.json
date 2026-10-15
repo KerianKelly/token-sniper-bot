@@ -1,0 +1,35 @@
+[
+  {
+    "label": "perpspad-coin-x",
+    "chain": "solana",
+    "deployer": "PASTE_CREATOR_WALLET_BASE58",
+    "buyAmount": 0.5,
+    "slippageBps": 1500,
+    "once": true
+  },
+  {
+    "label": "perpshood-coin-y",
+    "chain": "robinhood",
+    "deployer": "0xPASTE_DEPLOYER_ADDRESS_000000000000000000",
+    "buyAmount": 0.05,
+    "slippageBps": 1500,
+    "maxSnipeTaxBps": 100,
+    "once": true
+  },
+  {
+    "label": "perpshood-exempt-launch",
+    "chain": "robinhood",
+    "deployer": "0xPASTE_DEPLOYER_ADDRESS_000000000000000000",
+    "buyAmount": 0.05,
+    "instant": true,
+    "minTokensOut": 0,
+    "enabled": false
+  },
+  {
+    "label": "paperdao-presale",
+    "chain": "robinhood",
+    "type": "presale",
+    "contract": "0x5b1f1bea19f3bb69ac5f881a4419095b7484412e",
+    "keysEnv": "ROBINHOOD_PRESALE_KEYS"
+  }
+]
